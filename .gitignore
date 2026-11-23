@@ -1,2 +1,9 @@
 .DS_Store
 node_modules
+prisma/generated
+dev.db
+dev.db-journal
+.agents
+.claude
+.windsurf
+.env
