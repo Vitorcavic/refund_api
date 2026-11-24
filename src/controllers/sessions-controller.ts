@@ -10,7 +10,7 @@ import { sign } from "jsonwebtoken";
 class SessionsController {
     async create(req: Request, res: Response) {
 
-        const bodySchema = await z.object({
+        const bodySchema = z.object({
             email: z.email({ message: "E-mail inválido" }).toLowerCase(),
             password: z
             .string()
