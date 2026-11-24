@@ -4,7 +4,8 @@
   "description": "API for handling refund requests",
   "main": "server.ts",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "studio": "npx prisma studio --url \"file:////Users/vitorcavic/Documents/rocketseat/nodejs/refund_api/dev.db\""
   },
   "author": "Vítor R. Cavicchiolli",
   "type": "commonjs",
